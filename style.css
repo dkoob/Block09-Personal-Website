@@ -56,20 +56,20 @@ body {
 .mainBody {
     background-color: white;
     margin: 0px 200px 0px 200px;
+    padding-top: 100px;
     height: 100%;
 }
 
 .bodyText {
     padding: 0px 15px 0px 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .topP {
     padding: 0px 0px 0px 15px;
 }
 
-img {
+.aboutImg {
     width: 25%;
     height: 50%;
     display: inline-block;
@@ -85,15 +85,14 @@ img {
 } 
 
 .portImage {
-    vertical-align: top;
-    justify-content: center;
     align-items: middle;
-    padding: 2px;
-    display: block;
     padding-left: 150px;
 }
 
-.port > .portImage {
-    width: 50%;
+.port {
+    display: inline-block;
+    padding-bottom: 5px;
+    vertical-align: top;
+    width: 25%;
     height: 50%;
 }
