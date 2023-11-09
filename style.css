@@ -45,7 +45,7 @@ nav li:hover {
     display: inline-flex;
     align-items: center;
     font-size: x-large;
-    padding: 5px 0px 0px 550px;
+    padding: 5px 0px 0px 500px;
 }
 
 body {
@@ -56,9 +56,44 @@ body {
 .mainBody {
     background-color: white;
     margin: 0px 200px 0px 200px;
-    height: 100vh;
+    height: 100%;
 }
 
 .bodyText {
     padding: 0px 15px 0px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.topP {
+    padding: 0px 0px 0px 15px;
+}
+
+img {
+    width: 25%;
+    height: 50%;
+    display: inline-block;
+    padding-bottom: 550px;
+    padding-left: 15px;
+}
+.aboutContent {
+    text-align: left;
+    display: inline-block;
+    justify-content: right;
+    width: 50%;
+    padding-left: 60px;
+} 
+
+.portImage {
+    vertical-align: top;
+    justify-content: center;
+    align-items: middle;
+    padding: 2px;
+    display: block;
+    padding-left: 150px;
+}
+
+.port > .portImage {
+    width: 50%;
+    height: 50%;
 }
