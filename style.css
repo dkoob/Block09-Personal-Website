@@ -1,0 +1,49 @@
+nav {
+    background-color: #333;
+    display: flex;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    padding: 5px 20px 5px 20px;
+    transition: background-color 1s;
+    background-color: #555;
+    border-radius: 5px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+nav li:hover {
+    background-color: #979494;
+}
+
+body {
+    margin: 0;
+}
+
+.active {
+    background-color: #979494;
+    border-radius: 5px;
+}
+
+.headerMain {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20px;
+    display: inline-flex;
+}
