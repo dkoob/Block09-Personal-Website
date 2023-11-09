@@ -33,17 +33,32 @@ nav li:hover {
     background-color: #979494;
 }
 
-body {
-    margin: 0;
-}
-
 .active {
     background-color: #979494;
     border-radius: 5px;
+    text-decoration: underline;
 }
 
 .headerMain {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 20px;
     display: inline-flex;
+    align-items: center;
+    font-size: x-large;
+    padding: 5px 0px 0px 550px;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://colorfulcork.com/wp-content/uploads/2019/04/black-olive_2209-forbo-colored-cork-bulletin-board-tackable-wall-surface.jpg");
+}
+
+.mainBody {
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    height: 100vh;
+}
+
+.bodyText {
+    padding: 0px 15px 0px 15px;
 }
