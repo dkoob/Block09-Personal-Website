@@ -45,7 +45,7 @@ nav li:hover {
     display: inline-flex;
     align-items: center;
     font-size: x-large;
-    padding: 5px 0px 0px 500px;
+    padding: 5px 0px 0px 400px;
 }
 
 body {
@@ -119,3 +119,21 @@ body {
     color:#555;
 }
 
+.bodyTextSu {
+    text-align: center;
+    font-size: x-large;
+    height: 100vh;
+}
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    height: 100vh;
+}
